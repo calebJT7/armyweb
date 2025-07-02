@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BTS - Bangtan Sonyeondan</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="logo">
+                    <h1>BTS</h1>
+                    <span>방탄소년단</span>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#miembros">Miembros</a></li>
+                    <li><a href="#army">ARMY</a></li>
+                    <li><a href="#calendario">Calendario</a></li>
+                    <li><a href="#musica">Música</a></li>
+                    <li><a href="#videos">Videos</a></li>
+                    <li><a href="#fandom">Fandom</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Sección Inicio -->
+    <section id="inicio" class="hero">
+        <div class="hero-content">
+            <h1>BTS</h1>
+            <h2>방탄소년단 (Bangtan Sonyeondan)</h2>
+            <p>Bulletproof Boy Scouts</p>
+            <div class="hero-description">
+                <p>BTS es un grupo de K-pop surcoreano formado en 2013 por Big Hit Entertainment. 
+                Compuesto por siete miembros: RM, Jin, Suga, J-Hope, Jimin, V y Jungkook. 
+                Han logrado un éxito mundial sin precedentes, rompiendo barreras lingüísticas y culturales.</p>
+            </div>
+            <div class="stats">
+                <div class="stat">
+                    <h3>2013</h3>
+                    <p>Debut</p>
+                </div>
+                <div class="stat">
+                    <h3>7</h3>
+                    <p>Miembros</p>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Miembros -->
+    <section id="miembros" class="members">
+        <div class="container">
+            <h2>Conoce a los Miembros</h2>
+            <div class="members-grid">
+                <!-- RM -->
+                <div class="member-card">
+                    <div class="member-info">
+                        <h3>RM</h3>
+                        <p class="role">Líder, Rapper Principal</p>
+                        <p class="birthdate">📅 12 de Septiembre, 1994</p>
+                        <p class="real-name">Kim Namjoon</p>
+                        <p class="description">Líder carismático del grupo, conocido por su inteligencia y habilidades de rap excepcionales.</p>
+                        <button class="ver-mas-btn" data-member="rm">Ver más</button>
+                        <!-- NUEVO: Contenido expandido -->
+                        <div class="member-details" id="details-rm">
+                            <div class="member-tabs">
+                                <button class="tab-btn active" data-tab="solo">Música Solista</button>
+                                <button class="tab-btn" data-tab="social">Redes Sociales</button>
+                                <button class="tab-btn" data-tab="facts">Datos Curiosos</button>
+                            </div>
+                            <div class="tab-content">
+                                <div class="tab-pane active" id="solo-rm">
+                                    <h4>Música en Solitario</h4>
+                                    <ul>
+                                        <li>🎵 Indigo (2022) - Álbum debut</li>
+                                        <li>🎵 Mono (2018) - Mixtape</li>
+                                        <li>🎵 RM (2015) - Mixtape</li>
+                                        <li>🎵 "Wild Flower" feat. youjeen</li>
+                                        <li>🎵 "Still Life" feat. Anderson .Paak</li>
+                                    </ul>
+                                </div>
+                                <div class="tab-pane" id="social-rm">
+                                    <h4>Redes Sociales</h4>
+                                    <div class="social-links-member">
+                                        <a href="https://www.instagram.com/rkive/" target="_blank">
+                                            <i class="fab fa-instagram"></i> @rkive
+                                        </a>
+                                        <a href="https://open.spotify.com/artist/2auC28zjQyVTsiZKNgPRGs" target="_blank">
+                                            <i class="fab fa-spotify"></i> RM en Spotify
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="tab-pane" id="facts-rm">
+                                    <h4>Datos Curiosos</h4>
+                                    <ul>
+                                        <li>🧠 IQ de 148</li>
+                                        <li>🎨 Amante del arte y los museos</li>
+                                        <li>🌱 Embajador de UNICEF</li>
+                                        <li>📚 Habla inglés, japonés y coreano</li>
+                                        <li>🎵 Ha colaborado con artistas internacionales</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Jin -->
+                <div class="member-card">
+                    <div class="member-info">
+                        <h3>Jin</h3>
+                        <p class="role">Vocalista, Visual</p>
+                        <p class="birthdate">📅 4 de Diciembre, 1992</p>
+                        <p class="real-name">Kim Seokjin</p>
+                        <p class="description">El miembro mayor del grupo, conocido por su humor y hermosa voz.</p>
+                        <button class="ver-mas-btn" data-member="jin">Ver más</button>
+                        <div class="member-details" id="details-jin">
+                            <div class="member-tabs">
+                                <button class="tab-btn active" data-tab="solo">Música Solista</button>
+                                <button class="tab-btn" data-tab="social">Redes Sociales</button>
+                                <button class="tab-btn" data-tab="facts">Datos Curiosos</button>
+                            </div>
+                            <div class="tab-content">
+                                <div class="tab-pane active" id="solo-jin">
+                                    <h4>Música en Solitario</h4>
+                                    <ul>
+                                        <li>🎵 "The Astronaut" (2022)</li>
+                                        <li>🎵 "Super Tuna" (2021)</li>
+                                        <li>🎵 "Abyss" (2020)</li>
+                                        <li>🎵 "Tonight" (2019)</li>
+                                        <li>🎵 "Epiphany" - Solo en Love Yourself</li>
+                                    </ul>
+                                </div>
+                                <div class="tab-pane" id="social-jin">
+                                    <h4>Redes Sociales</h4>
+                                    <div class="social-links-member">
+                                        <a href="https://www.instagram.com/jin/" target="_blank">
+                                            <i class="fab fa-instagram"></i> @jin
+                                        </a>
+                                        <a href="https://open.spotify.com/artist/5vV3bFXnN6D6N3Nj4xRvaV" target="_blank">
+                                            <i class="fab fa-spotify"></i> Jin en Spotify
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="tab-pane" id="facts-jin">
+                                    <h4>Datos Curiosos</h4>
+                                    <ul>
+                                        <li>🍳 Le encina cocinar</li>
+                                        <li>🎮 Apasionado de los videojuegos</li>
+                                        <li>😂 Conocido por sus "dad jokes"</li>
+                                        <li>🎭 Estudió actuación</li>
+                                        <li>🏆 Visual oficial del grupo</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Suga -->
+                <div class="member-card">
+                    <div class="member-info">
+                        <h3>Suga</h3>
+                        <p class="role">Rapper, Productor</p>
+                        <p class="birthdate">📅 9 de Marzo, 1993</p>
+                        <p class="real-name">Min Yoongi</p>
+                        <p class="description">Productor talentoso y rapper con una personalidad tranquila pero apasionada.</p>
+                        <button class="ver-mas-btn" data-member="suga">Ver más</button>
+                        <div class="member-details" id="details-suga">
+                            <div class="member-tabs">
+                                <button class="tab-btn active" data-tab="solo">Música Solista</button>
+                                <button class="tab-btn" data-tab="social">Redes Sociales</button>
+                                <button class="tab-btn" data-tab="facts">Datos Curiosos</button>
+                            </div>
+                            <div class="tab-content">
+                                <div class="tab-pane active" id="solo-suga">
+                                    <h4>Música en Solitario</h4>
+                                    <ul>
+                                        <li>🎵 D-DAY (como Agust D, 2023)</li>
+                                        <li>🎵 D-2 (2020)</li>
+                                        <li>🎵 Agust D (2016)</li>
+                                        <li>🎵 "Daechwita", "People", "Haegeum"</li>
+                                    </ul>
+                                </div>
+                                <div class="tab-pane" id="social-suga">
+                                    <h4>Redes Sociales</h4>
+                                    <div class="social-links-member">
+                                        <a href="https://www.instagram.com/agustd/" target="_blank"><i class="fab fa-instagram"></i> @agustd</a>
+                                        <a href="https://open.spotify.com/artist/0b1sIQumIAsNbqAoIClSpy" target="_blank"><i class="fab fa-spotify"></i> Agust D en Spotify</a>
+                                    </div>
+                                </div>
+                                <div class="tab-pane" id="facts-suga">
+                                    <h4>Datos Curiosos</h4>
+                                    <ul>
+                                        <li>🎹 Compositor y productor de muchos temas de BTS</li>
+                                        <li>🎵 Ama hacer música en su estudio</li>
+                                        <li>🐱 Lo comparan con un gato por su personalidad</li>
+                                        <li>🏀 Fan del básquet</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- J-Hope -->
+                <div class="member-card">
+                    <div class="member-info">
+                        <h3>J-Hope</h3>
+                        <p class="role">Rapper, Bailarín Principal</p>
+                        <p class="birthdate">📅 18 de Febrero, 1994</p>
+                        <p class="real-name">Jung Hoseok</p>
+                        <p class="description">El rayo de sol del grupo, con increíbles habilidades de baile y rap.</p>
+                        <button class="ver-mas-btn" data-member="jhope">Ver más</button>
+                        <div class="member-details" id="details-jhope">
+                            <div class="member-tabs">
+                                <button class="tab-btn active" data-tab="solo">Música Solista</button>
+                                <button class="tab-btn" data-tab="social">Redes Sociales</button>
+                                <button class="tab-btn" data-tab="facts">Datos Curiosos</button>
+                            </div>
+                            <div class="tab-content">
+                                <div class="tab-pane active" id="solo-jhope">
+                                    <h4>Música en Solitario</h4>
+                                    <ul>
+                                        <li>🎵 Jack In The Box (2022)</li>
+                                        <li>🎵 Hope World (2018)</li>
+                                        <li>🎵 "MORE", "Arson"</li>
+                                    </ul>
+                                </div>
+                                <div class="tab-pane" id="social-jhope">
+                                    <h4>Redes Sociales</h4>
+                                    <div class="social-links-member">
+                                        <a href="https://www.instagram.com/uarmyhope/" target="_blank"><i class="fab fa-instagram"></i> @uarmyhope</a>
+                                        <a href="https://open.spotify.com/artist/2PSiyldxmJze7xiqbz658m" target="_blank"><i class="fab fa-spotify"></i> J-Hope en Spotify</a>
+                                    </div>
+                                </div>
+                                <div class="tab-pane" id="facts-jhope">
+                                    <h4>Datos Curiosos</h4>
+                                    <ul>
+                                        <li>☀️ Conocido como la energía positiva del grupo</li>
+                                        <li>🕺 Gran bailarín y coreógrafo</li>
+                                        <li>🎨 Le gusta la moda y el arte</li>
+                                        <li>🐿 Lo llaman "ardillita" por su sonrisa</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Jimin -->
+                <div class="member-card">
+                    <div class="member-info">
+                        <h3>Jimin</h3>
+                        <p class="role">Vocalista, Bailarín</p>
+                        <p class="birthdate">📅 13 de Octubre, 1995</p>
+                        <p class="real-name">Park Jimin</p>
+                        <p class="description">Bailarín excepcional con una voz angelical y personalidad encantadora.</p>
+                        <button class="ver-mas-btn" data-member="jimin">Ver más</button>
+                        <div class="member-details" id="details-jimin">
+                            <div class="member-tabs">
+                                <button class="tab-btn active" data-tab="solo">Música Solista</button>
+                                <button class="tab-btn" data-tab="social">Redes Sociales</button>
+                                <button class="tab-btn" data-tab="facts">Datos Curiosos</button>
+                            </div>
+                            <div class="tab-content">
+                                <div class="tab-pane active" id="solo-jimin">
+                                    <h4>Música en Solitario</h4>
+                                    <ul>
+                                        <li>🎵 FACE (2023)</li>
+                                        <li>🎵 "Like Crazy", "Set Me Free Pt.2"</li>
+                                        <li>🎵 "Promise", "Serendipity"</li>
+                                    </ul>
+                                </div>
+                                <div class="tab-pane" id="social-jimin">
+                                    <h4>Redes Sociales</h4>
+                                    <div class="social-links-member">
+                                        <a href="https://www.instagram.com/j.m/" target="_blank"><i class="fab fa-instagram"></i> @j.m</a>
+                                        <a href="https://open.spotify.com/artist/6HaGTQPmzraVmaVxvz6EUc" target="_blank"><i class="fab fa-spotify"></i> Jimin en Spotify</a>
+                                    </div>
+                                </div>
+                                <div class="tab-pane" id="facts-jimin">
+                                    <h4>Datos Curiosos</h4>
+                                    <ul>
+                                        <li>💃 Bailarín de formación contemporánea</li>
+                                        <li>💖 Muy cariñoso con los demás miembros</li>
+                                        <li>🌙 Lo llaman "mochi"</li>
+                                        <li>🎤 Conocido por su voz suave y aguda</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- V -->
+                <div class="member-card">
+                    <div class="member-info">
+                        <h3>V</h3>
+                        <p class="role">Vocalista, Visual</p>
+                        <p class="birthdate">📅 30 de Diciembre, 1995</p>
+                        <p class="real-name">Kim Taehyung</p>
+                        <p class="description">Conocido por su voz única y personalidad artística distintiva.</p>
+                        <button class="ver-mas-btn" data-member="v">Ver más</button>
+                        <div class="member-details" id="details-v">
+                            <div class="member-tabs">
+                                <button class="tab-btn active" data-tab="solo">Música Solista</button>
+                                <button class="tab-btn" data-tab="social">Redes Sociales</button>
+                                <button class="tab-btn" data-tab="facts">Datos Curiosos</button>
+                            </div>
+                            <div class="tab-content">
+                                <div class="tab-pane active" id="solo-v">
+                                    <h4>Música en Solitario</h4>
+                                    <ul>
+                                        <li>🎵 Layover (2023)</li>
+                                        <li>🎵 "Slow Dancing", "Love Me Again"</li>
+                                        <li>🎵 "Scenery", "Winter Bear"</li>
+                                    </ul>
+                                </div>
+                                <div class="tab-pane" id="social-v">
+                                    <h4>Redes Sociales</h4>
+                                    <div class="social-links-member">
+                                        <a href="https://www.instagram.com/thv/" target="_blank"><i class="fab fa-instagram"></i> @thv</a>
+                                        <a href="https://open.spotify.com/artist/3JsHnjpbhX4SnySpvpa9DK" target="_blank"><i class="fab fa-spotify"></i> V en Spotify</a>
+                                    </div>
+                                </div>
+                                <div class="tab-pane" id="facts-v">
+                                    <h4>Datos Curiosos</h4>
+                                    <ul>
+                                        <li>📸 Amante de la fotografía y el jazz</li>
+                                        <li>🐯 Su animal representativo es el tigre</li>
+                                        <li>🎭 Tiene experiencia como actor</li>
+                                        <li>🎙 Voz profunda y única</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Jungkook -->
+                <div class="member-card">
+                    <div class="member-info">
+                        <h3>Jungkook</h3>
+                        <p class="role">Vocalista Principal, Bailarín</p>
+                        <p class="birthdate">📅 1 de Septiembre, 1997</p>
+                        <p class="real-name">Jeon Jungkook</p>
+                        <p class="description">El miembro más joven, conocido como el "Golden Maknae" por sus múltiples talentos.</p>
+                        <button class="ver-mas-btn" data-member="jungkook">Ver más</button>
+                        <div class="member-details" id="details-jungkook">
+                            <div class="member-tabs">
+                                <button class="tab-btn active" data-tab="solo">Música Solista</button>
+                                <button class="tab-btn" data-tab="social">Redes Sociales</button>
+                                <button class="tab-btn" data-tab="facts">Datos Curiosos</button>
+                            </div>
+                            <div class="tab-content">
+                                <div class="tab-pane active" id="solo-jungkook">
+                                    <h4>Música en Solitario</h4>
+                                    <ul>
+                                        <li>🎵 GOLDEN (2023)</li>
+                                        <li>🎵 "Seven", "3D", "Standing Next to You"</li>
+                                        <li>🎵 "Still With You", "My You"</li>
+                                    </ul>
+                                </div>
+                                <div class="tab-pane" id="social-jungkook">
+                                    <h4>Redes Sociales</h4>
+                                    <div class="social-links-member">
+                                        <a href="https://open.spotify.com/artist/6HaGTQPmzraVmaVxvz6EUc" target="_blank"><i class="fab fa-spotify"></i> Jungkook en Spotify</a>
+                                    </div>
+                                </div>
+                                <div class="tab-pane" id="facts-jungkook">
+                                    <h4>Datos Curiosos</h4>
+                                    <ul>
+                                        <li>🐰 Llamado "Golden Maknae" por su versatilidad</li>
+                                        <li>🏃‍♂️ Ama el deporte y entrenar</li>
+                                        <li>🎨 Le gusta dibujar y editar videos</li>
+                                        <li>🎧 Produce y compone</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Fin miembros -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección ARMY -->
+    <section id="army" class="army">
+        <div class="container">
+            <h2>ARMY</h2>
+            <div class="army-content">
+                <div class="army-info">
+                    <h3>¿Qué significa ARMY?</h3>
+                    <p><strong>A.R.M.Y</strong> significa <em>"Adorable Representative M.C for Youth"</em></p>
+                    <p>ARMY es el nombre oficial del fandom de BTS, anunciado el 9 de julio de 2013. 
+                    El nombre simboliza que los fans siempre estarán junto a BTS, protegiéndolos como un ejército.</p>
+                </div>
+                <div class="army-facts">
+                    <h3>Datos sobre ARMY</h3>
+                    <ul>
+                        <li>🎨 Color oficial: Púrpura (보라해 - Borahae)</li>
+                        <li>📅 Día oficial: 9 de julio</li>
+                        <li>💎 Símbolo: ARMY Bomb (Lightstick oficial)</li>
+                        <li>🌍 Presencia mundial en más de 100 países</li>
+                        <li>💜 Significado del púrpura: "Te amo" en BTS</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Calendario -->
+    <section id="calendario" class="calendar">
+        <div class="container">
+            <h2>Calendario ARMY</h2>
+            <div class="calendar-grid">
+                <div class="calendar-section">
+                    <h3>Cumpleaños de Miembros</h3>
+                    <div class="events">
+                        <div class="event">
+                            <span class="date">18 Feb</span>
+                            <span class="title">Cumpleaños de J-Hope</span>
+                        </div>
+                        <div class="event">
+                            <span class="date">9 Mar</span>
+                            <span class="title">Cumpleaños de Suga</span>
+                        </div>
+                        <div class="event">
+                            <span class="date">1 Sep</span>
+                            <span class="title">Cumpleaños de Jungkook</span>
+                        </div>
+                        <div class="event">
+                            <span class="date">12 Sep</span>
+                            <span class="title">Cumpleaños de RM</span>
+                        </div>
+                        <div class="event">
+                            <span class="date">13 Oct</span>
+                            <span class="title">Cumpleaños de Jimin</span>
+                        </div>
+                        <div class="event">
+                            <span class="date">4 Dec</span>
+                            <span class="title">Cumpleaños de Jin</span>
+                        </div>
+                        <div class="event">
+                            <span class="date">30 Dec</span>
+                            <span class="title">Cumpleaños de V</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="calendar-section">
+                    <h3>Fechas Importantes</h3>
+                    <div class="events">
+                        <div class="event">
+                            <span class="date">13 Jun</span>
+                            <span class="title">Debut de BTS (2013)</span>
+                        </div>
+                        <div class="event">
+                            <span class="date">9 Jul</span>
+                            <span class="title">Día oficial de ARMY</span>
+                        </div>
+                        <div class="event">
+                            <span class="date">21 Aug</span>
+                            <span class="title">Love Yourself: Her (2017)</span>
+                        </div>
+                        <div class="event">
+                            <span class="date">12 Apr</span>
+                            <span class="title">Map of the Soul: Persona (2019)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Música -->
+    <section id="musica" class="music">
+        <div class="container">
+            <h2>Música de BTS</h2>
+            <div class="music-platforms">
+                <a href="https://open.spotify.com/artist/3Nrfpe0tUJi4K4DXYWgMUX" target="_blank" class="platform">
+                    <i class="fab fa-spotify"></i>
+                    <span>Spotify</span>
+                </a>
+                <a href="https://music.apple.com/artist/bts/883131348" target="_blank" class="platform">
+                    <i class="fab fa-apple"></i>
+                    <span>Apple Music</span>
+                </a>
+                <a href="https://music.youtube.com/channel/UC9vrvNSL3xcywWB4FPjqKMg" target="_blank" class="platform">
+                    <i class="fab fa-youtube"></i>
+                    <span>YouTube Music</span>
+                </a>
+                <a href="https://soundcloud.com/bangtan" target="_blank" class="platform">
+                    <i class="fab fa-soundcloud"></i>
+                    <span>SoundCloud</span>
+                </a>
+            </div>
+            <div class="albums">
+                <h3>Álbumes Principales</h3>
+                <div class="albums-grid">
+                    <div class="album">
+                        <h4>Map of the Soul: 7</h4>
+                        <p>2020</p>
+                    </div>
+                    <div class="album">
+                        <h4>BE</h4>
+                        <p>2020</p>
+                    </div>
+                    <div class="album">
+                        <h4>Love Yourself: Answer</h4>
+                        <p>2018</p>
+                    </div>
+                    <div class="album">
+                        <h4>Map of the Soul: Persona</h4>
+                        <p>2019</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Videos -->
+    <section id="videos" class="videos">
+        <div class="container">
+            <h2>Videos y Contenido</h2>
+            <div class="video-platforms">
+                <a href="https://www.youtube.com/c/BANGTANTV" target="_blank" class="platform">
+                    <i class="fab fa-youtube"></i>
+                    <span>BANGTANTV</span>
+                </a>
+                <a href="https://www.youtube.com/c/HYBE" target="_blank" class="platform">
+                    <i class="fab fa-youtube"></i>
+                    <span>HYBE Labels</span>
+                </a>
+                <a href="https://weverse.io/bts" target="_blank" class="platform">
+                    <i class="fas fa-globe"></i>
+                    <span>Weverse</span>
+                </a>
+            </div>
+            <div class="content-types">
+                <div class="content-type">
+                    <h3>Music Videos</h3>
+                    <p>Videos musicales oficiales y contenido visual</p>
+                </div>
+                <div class="content-type">
+                    <h3>Bangtan Bombs</h3>
+                    <p>Contenido detrás de cámaras y momentos especiales</p>
+                </div>
+                <div class="content-type">
+                    <h3>Lives</h3>
+                    <p>Transmisiones en vivo y interacciones con ARMY</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Actividades del Fandom -->
+    <section id="fandom" class="fandom">
+        <div class="container">
+            <h2>Actividades del Fandom</h2>
+            <div class="fandom-activities">
+                <div class="activity">
+                    <h3>Streaming Goals</h3>
+                    <ul>
+                        <li>🎵 Apoyo en plataformas musicales</li>
+                        <li>📺 Streaming de MVs en YouTube</li>
+                        <li>📊 Votaciones en programas musicales</li>
+                        <li>🏆 Apoyo en premiaciones internacionales</li>
+                    </ul>
+                </div>
+                <div class="activity">
+                    <h3>Proyectos Benéficos</h3>
+                    <ul>
+                        <li>💜 Donaciones en nombre de BTS</li>
+                        <li>🌱 Proyectos ambientales</li>
+                        <li>📚 Becas educativas</li>
+                        <li>🤝 Apoyo a causas sociales</li>
+                    </ul>
+                </div>
+                <div class="activity">
+                    <h3>Eventos Especiales</h3>
+                    <ul>
+                        <li>🎂 Celebraciones de cumpleaños</li>
+                        <li>🎉 Aniversarios de debut</li>
+                        <li>💜 Purple Ribbon Projects</li>
+                        <li>🌟 Fan art y covers</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>BTS</h3>
+                    <p>Página fan dedicada a BTS y ARMY</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Síguelos</h3>
+                    <div class="social-links">
+                        <a href="https://twitter.com/BTS_twt" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/bts.bighitofficial/" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/bangtan.official" target="_blank"><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.tiktok.com/@bts_official_bighit" target="_blank"><i class="fab fa-tiktok"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>Sitios Oficiales</h3>
+                    <a href="https://ibighit.com/bts/" target="_blank">Sitio Oficial</a>
+                    <a href="https://weverse.io/bts" target="_blank">Weverse</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 BTS Fan Page. Contenido no oficial creado por ARMY para ARMY 💜</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
