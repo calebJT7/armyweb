@@ -2,6 +2,10 @@
 
 A responsive fan-made website dedicated to BTS (방탄소년단), built with HTML, CSS, and JavaScript.
 
+## 🌐 Live Demo
+
+[🔗 View the project online](https://tupagina.vercel.app)
+
 ## 🌐 Features
 
 - Expandable member profiles with "See More" buttons
